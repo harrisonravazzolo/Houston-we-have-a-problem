@@ -20,9 +20,10 @@ org_settings:
     server_url: $FLEET_URL
   org_info:
     org_name: Fleet Astros
-  activities_webhook:
-    enable_activities_webhook: true
-    destination_url: https://webhook.site/1c4c68d6-e848-4f4b-940f-4a94d471d4c6
+  webhook_settings:
+    activities_webhook:
+      enable_activities_webhook: true
+      destination_url: https://webhook.site/1c4c68d6-e848-4f4b-940f-4a94d471d4c6
   secrets:
     - secret: "$FLEET_GLOBAL_ENROLL_SECRET"
   features:
